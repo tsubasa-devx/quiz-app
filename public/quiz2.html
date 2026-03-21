@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/styles.css" />
+    <script src="/js/app.js" defer></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="quiz-form">
+      <h1>第2問</h1>
+      <h2>1+2は？</h2>
+      <form action="/quiz2" method="POST">
+      <input
+        type="text"
+        name="answer"
+        placeholder="答えを入力"
+        class="answer"
+      />
+      <input type="hidden" name="score" id="score-input" />
+      <button type="submit" class="button">答える</button>
+    </div>
+    </form>
+  </body>
+</html>
